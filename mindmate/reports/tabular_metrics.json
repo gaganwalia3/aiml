@@ -1,0 +1,161 @@
+{
+  "synthetic_data": true,
+  "n_rows": 2001,
+  "positive_rate": 0.49375312343828087,
+  "best_model": "Logistic Regression",
+  "cv": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6587,
+      "precision": 0.6548,
+      "recall": 0.6519,
+      "f1": 0.6529,
+      "roc_auc": 0.7247
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.6325,
+      "precision": 0.6324,
+      "recall": 0.6089,
+      "f1": 0.6202,
+      "roc_auc": 0.6835
+    },
+    {
+      "model": "SVM (RBF)",
+      "accuracy": 0.6419,
+      "precision": 0.6391,
+      "recall": 0.6316,
+      "f1": 0.6344,
+      "roc_auc": 0.7008
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.6212,
+      "precision": 0.62,
+      "recall": 0.6013,
+      "f1": 0.6102,
+      "roc_auc": 0.6768
+    }
+  ],
+  "tuning": [
+    {
+      "model": "Logistic Regression",
+      "best_cv_f1": 0.6529,
+      "best_params": {
+        "C": 1
+      }
+    },
+    {
+      "model": "Random Forest",
+      "best_cv_f1": 0.6458,
+      "best_params": {
+        "max_depth": 8,
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "model": "SVM (RBF)",
+      "best_cv_f1": 0.6473,
+      "best_params": {
+        "C": 0.5,
+        "gamma": 0.05
+      }
+    },
+    {
+      "model": "Gradient Boosting",
+      "best_cv_f1": 0.6373,
+      "best_params": {
+        "learning_rate": 0.05,
+        "max_depth": 2,
+        "n_estimators": 200
+      }
+    }
+  ],
+  "test": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6758,
+      "precision": 0.6683,
+      "recall": 0.6818,
+      "f1": 0.675,
+      "roc_auc": 0.7568
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.6758,
+      "precision": 0.6717,
+      "recall": 0.6717,
+      "f1": 0.6717,
+      "roc_auc": 0.7263
+    },
+    {
+      "model": "SVM (RBF)",
+      "accuracy": 0.6758,
+      "precision": 0.6667,
+      "recall": 0.6869,
+      "f1": 0.6766,
+      "roc_auc": 0.7498
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.6534,
+      "precision": 0.6545,
+      "recall": 0.6313,
+      "f1": 0.6427,
+      "roc_auc": 0.7354
+    }
+  ],
+  "feature_importance": [
+    {
+      "feature": "Academic Pressure",
+      "importance": 0.0917,
+      "std": 0.0174
+    },
+    {
+      "feature": "Financial Stress",
+      "importance": 0.0327,
+      "std": 0.0156
+    },
+    {
+      "feature": "Study Satisfaction",
+      "importance": 0.0097,
+      "std": 0.0146
+    },
+    {
+      "feature": "Dietary Habits",
+      "importance": 0.0074,
+      "std": 0.0123
+    },
+    {
+      "feature": "Work/Study Hours",
+      "importance": 0.0047,
+      "std": 0.0148
+    },
+    {
+      "feature": "CGPA",
+      "importance": 0.0026,
+      "std": 0.003
+    },
+    {
+      "feature": "Age",
+      "importance": 0.0001,
+      "std": 0.0091
+    },
+    {
+      "feature": "Family History of Mental Illness",
+      "importance": -0.0083,
+      "std": 0.0083
+    },
+    {
+      "feature": "Gender",
+      "importance": -0.0091,
+      "std": 0.0069
+    },
+    {
+      "feature": "Sleep Duration",
+      "importance": -0.0198,
+      "std": 0.0126
+    }
+  ],
+  "uses_suicidal_feature": false
+}

@@ -1,0 +1,3 @@
+# Report notes (CE-2)
+Suggested structure: 1 Problem & motivation; 2 Datasets & preprocessing (leakage decision on suicidal-thoughts column); 3 Risk model comparison (CV table, ROC, confusion matrix, permutation importance: `reports/tabular_*`); 4 Intent classifier (`reports/intent_*`); 5 Safety layer design and test cases (`tests/test_all.py`); 6 Personality module (TIPI, Gosling et al. 2003) and mapping; 7 App screenshots; 8 Ethics, limitations, future work (sentence embeddings/transformer intents, multilingual crisis detection, user study, encryption).
+Regenerate all numbers on the REAL Kaggle data first; current numbers come from synthetic data.

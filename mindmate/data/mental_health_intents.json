@@ -1,0 +1,500 @@
+{
+ "_note": "PLACEHOLDER intents authored for development. Replace with the Kaggle file (same tag/patterns/responses schema) before final evaluation.",
+ "intents": [
+  {
+   "tag": "greeting",
+   "patterns": [
+    "hi",
+    "hello",
+    "hey there",
+    "good morning",
+    "good evening",
+    "hey",
+    "hii",
+    "is anyone there",
+    "hello mindmate",
+    "yo",
+    "hi mindmate",
+    "hello there",
+    "hey how are you",
+    "good afternoon",
+    "heyy",
+    "hi i need someone to talk to",
+    "hello can we chat",
+    "hey are you there",
+    "namaste",
+    "sup",
+    "good day",
+    "hi again"
+   ],
+   "responses": [
+    "Hi, I'm MindMate. I'm here to listen. How are you feeling today?",
+    "Hello! What's on your mind today?"
+   ]
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "bye",
+    "goodbye",
+    "see you later",
+    "talk to you later",
+    "i have to go",
+    "gotta go now",
+    "that's all for today",
+    "good night",
+    "see you tomorrow",
+    "i'm logging off now",
+    "okay bye for now",
+    "i'll come back later",
+    "talk soon",
+    "have a nice day",
+    "signing off",
+    "catch you later",
+    "ok that's enough for now",
+    "time for me to sleep bye",
+    "thanks bye",
+    "i'm leaving now"
+   ],
+   "responses": [
+    "Take care of yourself. I'm here whenever you want to talk.",
+    "Goodbye for now. Be kind to yourself today."
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "thanks",
+    "thank you",
+    "thanks a lot",
+    "that helped",
+    "this was helpful",
+    "i feel a bit better now",
+    "appreciate it",
+    "thank you so much",
+    "thanks for listening",
+    "thank you for being here",
+    "you've been really kind",
+    "that was really useful",
+    "thanks mindmate",
+    "that actually helped me",
+    "i appreciate your help",
+    "thanks i needed that",
+    "this made me feel heard",
+    "wow thank you",
+    "you're very helpful",
+    "cheers for the advice"
+   ],
+   "responses": [
+    "I'm really glad that helped. You did the hard part by reaching out.",
+    "Anytime. Come back whenever you need."
+   ]
+  },
+  {
+   "tag": "stress",
+   "patterns": [
+    "i feel so stressed",
+    "exams are stressing me out",
+    "i can't handle this pressure",
+    "there is too much work",
+    "i'm overwhelmed with assignments",
+    "my deadlines are killing me",
+    "i feel under so much pressure",
+    "too many things to do and no time",
+    "i am burnt out",
+    "college is too much for me",
+    "i have three exams this week and i'm freaking out",
+    "the workload is crushing me",
+    "i'm drowning in deadlines",
+    "so much pressure from my semester",
+    "i feel stretched too thin",
+    "i can't keep up with everything",
+    "my backlog is piling up and i feel stressed",
+    "i'm tense and exhausted from studying",
+    "the pressure of finals is getting to me",
+    "there's no time to breathe",
+    "i'm completely overloaded",
+    "i am stressed about my project submission"
+   ],
+   "responses": [
+    "That sounds like a lot to carry. Let's slow it down together and look at what is weighing on you most.",
+    "Feeling overwhelmed is common, especially around deadlines, and it doesn't mean you're failing."
+   ]
+  },
+  {
+   "tag": "anxiety",
+   "patterns": [
+    "i feel anxious",
+    "my heart is racing and i'm scared",
+    "i keep overthinking everything",
+    "i'm worried about the future",
+    "i get panic before exams",
+    "i can't stop worrying",
+    "i feel nervous all the time",
+    "my mind won't calm down",
+    "i have a lot of anxiety",
+    "i'm afraid i will fail",
+    "i get nervous before every presentation",
+    "i have constant butterflies in my stomach",
+    "my thoughts keep racing",
+    "i'm scared about what will happen next",
+    "i feel on edge all day",
+    "i panic when i think about results",
+    "i can't relax because i'm so worried",
+    "i'm terrified of speaking in class",
+    "what if everything goes wrong",
+    "i feel a tight chest and anxious",
+    "i'm anxious about my viva",
+    "i overthink every little thing"
+   ],
+   "responses": [
+    "Anxiety can feel intense, but it passes. Let's try to ground you in the present for a moment.",
+    "Thank you for telling me. Worry loves to spiral, so let's take it one piece at a time."
+   ]
+  },
+  {
+   "tag": "sadness",
+   "patterns": [
+    "i feel really sad",
+    "i don't feel like doing anything",
+    "everything feels heavy",
+    "i feel empty inside",
+    "i've been crying a lot",
+    "i feel down",
+    "i feel depressed",
+    "nothing makes me happy anymore",
+    "i feel numb",
+    "i've lost interest in everything",
+    "i feel so low lately",
+    "i just want to stay in bed all day",
+    "i feel hopeless and tired",
+    "life feels grey and pointless",
+    "i cry without knowing why",
+    "i feel really unhappy",
+    "i have no energy and feel sad",
+    "i feel like there is a dark cloud over me",
+    "i am so sad today",
+    "i feel broken inside",
+    "nothing excites me anymore",
+    "i feel miserable"
+   ],
+   "responses": [
+    "I'm sorry you're feeling this way. I'm listening. Do you want to tell me what has been going on?",
+    "That sounds really heavy. You don't have to explain it perfectly. Share whatever feels okay."
+   ]
+  },
+  {
+   "tag": "loneliness",
+   "patterns": [
+    "i feel lonely",
+    "i have no friends here",
+    "nobody understands me",
+    "i feel isolated in my hostel",
+    "i have no one to talk to",
+    "i feel left out",
+    "i miss my family and home",
+    "everyone seems to have friends except me",
+    "i feel so alone",
+    "i don't belong anywhere",
+    "i eat alone every day",
+    "nobody texts me",
+    "i feel invisible to everyone",
+    "i have nobody to share my problems with",
+    "i feel disconnected from people around me",
+    "i'm homesick and alone",
+    "i feel like an outsider in this college",
+    "i wish i had someone to talk to",
+    "i spend weekends completely alone",
+    "nobody invites me anywhere"
+   ],
+   "responses": [
+    "Feeling alone, especially away from home, is painful. Thank you for sharing it with me.",
+    "You matter, and wanting connection is completely human. Let's think about small ways to reach it."
+   ]
+  },
+  {
+   "tag": "sleep",
+   "patterns": [
+    "i can't sleep",
+    "i've been having insomnia",
+    "i feel tired all the time",
+    "i sleep very late every night",
+    "i wake up in the middle of the night",
+    "my sleep schedule is ruined",
+    "i only sleep three hours",
+    "i can't fall asleep because of my thoughts",
+    "i lie awake for hours at night",
+    "i can't switch off my brain at bedtime",
+    "i'm sleeping too much and still tired",
+    "i keep waking up at 3 am",
+    "i'm exhausted but can't sleep",
+    "my sleep has been terrible this week",
+    "i stay up till morning every day",
+    "i barely get any rest",
+    "i have nightmares and can't sleep",
+    "i feel sleepy all day in class",
+    "i have trouble sleeping",
+    "i'm up all night scrolling my phone"
+   ],
+   "responses": [
+    "Sleep problems can really affect mood and focus. Has your routine changed recently?",
+    "Poor sleep makes everything feel harder. Let's look at what might be keeping you up."
+   ]
+  },
+  {
+   "tag": "procrastination",
+   "patterns": [
+    "i keep procrastinating",
+    "i can't focus on studying",
+    "i have no motivation",
+    "i waste so much time on my phone",
+    "i can't start my assignment",
+    "i feel lazy and guilty about it",
+    "i can't concentrate on anything",
+    "i keep delaying my work",
+    "i keep putting off my studies",
+    "i sit with my books but can't study",
+    "i have zero drive to work",
+    "i scroll reels instead of studying",
+    "i can't make myself start",
+    "i feel unmotivated to do anything productive",
+    "my attention span is gone",
+    "i can't get anything done",
+    "i delay everything until the last minute",
+    "i'm not able to focus on my syllabus",
+    "i feel stuck and unproductive",
+    "i lost my motivation to study"
+   ],
+   "responses": [
+    "Getting started is often the hardest part, and it isn't a character flaw.",
+    "Low motivation is often a sign of being overloaded, not lazy. Let's shrink the task."
+   ]
+  },
+  {
+   "tag": "self_esteem",
+   "patterns": [
+    "i feel worthless",
+    "i'm not good enough",
+    "i feel like a failure",
+    "everyone is better than me",
+    "i hate myself",
+    "i'm stupid",
+    "i feel like i'm a burden",
+    "i always disappoint my parents",
+    "i compare myself to others all the time",
+    "i feel like i'm useless",
+    "i'm a total failure",
+    "i'm not smart enough for this course",
+    "i feel inferior to my classmates",
+    "i think everyone hates me",
+    "i can't do anything right",
+    "i feel like i don't deserve good things",
+    "i'm ashamed of myself",
+    "i feel like i'm not enough",
+    "i feel stupid compared to others",
+    "i think i am a loser",
+    "i have no confidence at all"
+   ],
+   "responses": [
+    "I hear how hard you are being on yourself. That voice is loud, but it isn't the whole truth about you.",
+    "You are more than your grades or your worst day. I'm glad you told me."
+   ]
+  },
+  {
+   "tag": "anger",
+   "patterns": [
+    "i'm so angry",
+    "i get irritated at everything",
+    "i lose my temper easily",
+    "i feel furious with my friends",
+    "i feel like screaming",
+    "i am frustrated all the time",
+    "i snapped at my roommate",
+    "i'm really mad at everyone",
+    "i feel so much rage",
+    "little things make me explode",
+    "i'm fed up with everything",
+    "i got into a heated argument today",
+    "i can't control my anger",
+    "i feel like breaking something",
+    "people irritate me so much lately",
+    "i yelled at my parents and feel bad",
+    "i'm angry at myself and others",
+    "i feel annoyed constantly",
+    "i'm so frustrated with my professor"
+   ],
+   "responses": [
+    "Anger often sits on top of hurt or exhaustion. What happened?",
+    "It's okay to feel angry. Let's find a safe way to let some of it out."
+   ]
+  },
+  {
+   "tag": "family_pressure",
+   "patterns": [
+    "my parents expect too much from me",
+    "i'm scared of my family's expectations",
+    "i'm stressed about money and fees",
+    "i am afraid of disappointing my family",
+    "i'm under pressure to get a good placement",
+    "my family compares me with my cousins",
+    "i have financial problems and can't focus",
+    "my parents want me to be an engineer but i don't",
+    "my family has high expectations from me",
+    "i can't pay my fees and i'm worried",
+    "i feel pressure to get a high package",
+    "my parents keep comparing my marks with others",
+    "my family is struggling financially",
+    "i'm scared to tell my parents my result",
+    "i feel guilty about the money my family spends on me",
+    "i'm the first graduate in my family and the pressure is huge",
+    "my dad expects me to top the class",
+    "i can't afford hostel expenses",
+    "my parents don't understand my stress"
+   ],
+   "responses": [
+    "Carrying other people's expectations on top of your own is exhausting.",
+    "Money and family worries are real stressors. You're not alone in this."
+   ]
+  },
+  {
+   "tag": "relationships",
+   "patterns": [
+    "i had a breakup",
+    "my girlfriend left me",
+    "my best friend betrayed me",
+    "i had a fight with my friend",
+    "my relationship is toxic",
+    "i feel heartbroken",
+    "my roommate and i are not getting along",
+    "my boyfriend and i broke up",
+    "i feel betrayed by my friend",
+    "my friends ignored me",
+    "my partner and i fight all the time",
+    "i lost my best friend",
+    "i feel heartbroken and can't move on",
+    "i had an argument with my roommate",
+    "my friend group excluded me",
+    "she ghosted me and i feel awful",
+    "my crush rejected me",
+    "i'm struggling in my relationship",
+    "my friends talk behind my back"
+   ],
+   "responses": [
+    "Relationship pain can hit hard. I'm sorry you're going through this.",
+    "That sounds really painful. Do you want to talk about what happened?"
+   ]
+  },
+  {
+   "tag": "positive_mood",
+   "patterns": [
+    "i'm feeling good today",
+    "i'm happy",
+    "i did well in my exam",
+    "today was a great day",
+    "i feel much better",
+    "i'm feeling hopeful",
+    "things are looking up",
+    "i feel calm today",
+    "i feel great today",
+    "i'm in a good mood",
+    "i passed my test",
+    "i feel proud of myself",
+    "things are going well for me",
+    "i'm feeling optimistic",
+    "i'm so happy today",
+    "i got good news today",
+    "i'm feeling better than last week",
+    "i had a lovely day with friends",
+    "i feel relaxed and happy",
+    "i feel motivated today"
+   ],
+   "responses": [
+    "That's wonderful to hear. What made today good?",
+    "I'm glad. Hold on to this feeling. What helped you get here?"
+   ]
+  },
+  {
+   "tag": "about_bot",
+   "patterns": [
+    "who are you",
+    "what are you",
+    "are you a real person",
+    "what can you do",
+    "are you a robot",
+    "how do you work",
+    "tell me about yourself",
+    "can you help me",
+    "what is mindmate",
+    "are you an ai",
+    "who made you",
+    "are you a human",
+    "can you actually help me",
+    "what should i call you",
+    "what do you do",
+    "how can you help students",
+    "are you a therapist",
+    "do you understand me",
+    "is this chat private",
+    "tell me what you can do"
+   ],
+   "responses": [
+    "I'm MindMate, an AI companion for students. I can listen, suggest coping ideas and point you to professional help. I'm not a therapist and I can't diagnose anything."
+   ]
+  },
+  {
+   "tag": "professional_help",
+   "patterns": [
+    "should i see a therapist",
+    "i think i need professional help",
+    "how do i talk to a counselor",
+    "is there a counselor on campus",
+    "i want to talk to a psychologist",
+    "do i need medication",
+    "where can i get help",
+    "i think i should talk to a doctor",
+    "do i need to see a psychiatrist",
+    "how can i book a counselling session",
+    "does my college have a counsellor",
+    "i want to talk to someone professional",
+    "who can i call for support",
+    "should i get therapy",
+    "where can i find a therapist",
+    "i need to speak to an expert",
+    "is it okay to go to counselling",
+    "what is a helpline number",
+    "can a counsellor help me with exam stress"
+   ],
+   "responses": [
+    "Reaching out to a professional is a strong step. A campus counsellor or a helpline like Tele-MANAS (14416) is a good place to start."
+   ]
+  },
+  {
+   "tag": "crisis",
+   "patterns": [
+    "i want to end my life",
+    "i don't want to live anymore",
+    "i want to kill myself",
+    "i want to die",
+    "i'm thinking about suicide",
+    "i wish i wasn't alive",
+    "life is not worth living",
+    "i have a plan to hurt myself",
+    "i want to end it all",
+    "i'm going to kill myself tonight",
+    "i don't see a reason to live",
+    "i have thought about suicide",
+    "i want to hurt myself",
+    "everyone would be better off without me",
+    "i wish i could just disappear forever",
+    "i'm planning to end my life",
+    "i can't go on living like this",
+    "i've been thinking of ways to die",
+    "i feel like dying",
+    "i don't want to be alive"
+   ],
+   "responses": [
+    "I'm really concerned about you. Please reach out to a helpline right now. You deserve immediate support."
+   ]
+  }
+ ]
+}

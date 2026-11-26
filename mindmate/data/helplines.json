@@ -1,0 +1,17 @@
+{
+  "_note": "Edit this list. Verify every number before deploying to real users, and add your own campus counsellor contact.",
+  "helplines": [
+    {
+      "name": "Tele-MANAS (Govt. of India, free, 24x7, many languages)",
+      "phone": "14416 or 1800-891-4416"
+    },
+    {
+      "name": "Emergency services (India)",
+      "phone": "112"
+    },
+    {
+      "name": "Your campus counsellor",
+      "phone": "9041024903"
+    }
+  ]
+}

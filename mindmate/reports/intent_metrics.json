@@ -1,0 +1,24 @@
+{
+  "n_patterns": 345,
+  "n_intents": 17,
+  "cv_folds": 5,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6057971014492753,
+      "macro_f1": 0.6038060815547457
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.6202898550724638,
+      "macro_f1": 0.6161083932582119
+    },
+    {
+      "model": "Naive Bayes",
+      "accuracy": 0.591304347826087,
+      "macro_f1": 0.5879871417726987
+    }
+  ],
+  "deployed": "Logistic Regression",
+  "caveat": "Small placeholder dataset; re-evaluate on the real Kaggle intents file."
+}
